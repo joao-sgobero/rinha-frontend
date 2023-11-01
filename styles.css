@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.content p {
+    font-size: 24px;
+    margin: 0 auto 24px auto
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jsonOutput {
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-height: 500px; /* ou qualquer valor que você deseje */
+    overflow-y: scroll;
+}
+
+
+.json-content {
+    max-width: 600px; /* Limita a largura do conteúdo */
+    margin: 20px auto; /* Centraliza e adiciona espaço acima/abaixo */
+    font-family: 'Courier New', monospace; /* Fonte monoespaçada para melhor leitura */
+    line-height: 1.5;
+    overflow-y: auto; /* Adiciona barra de rolagem se o conteúdo for longo */
+    height: auto; /* Altura máxima antes de começar a rolagem */
+    border: 1px solid #ccc; /* Borda para visualizar a área de conteúdo */
+    padding: 15px;
+    background-color: #fff; /* Cor de fundo branca */
+}
+
+button {
+    padding: 16px 24px;
+    margin-left: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Estilizações adicionais, se necessário */
